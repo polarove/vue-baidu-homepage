@@ -1,0 +1,38 @@
+html,
+body,
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font: 14px/24px Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 修改滚动条样式 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+/* 定义轨道 */
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+/* 定义滑块 */
+::-webkit-scrollbar-thumb {
+    background: rgb(201, 201, 202);
+    border-radius: 8px;
+}
+/* 定义 hover 时 */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 232, 197);
+}
