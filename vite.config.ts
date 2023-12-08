@@ -4,6 +4,6 @@ import UnoCSS from 'unocss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/page-baidu-homepage',
-    plugins: [vue(), UnoCSS()],
+  base: '/vue-baidu-homepage',
+  plugins: [vue(), UnoCSS()],
 })
